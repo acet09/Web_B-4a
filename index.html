@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>산업대학교</title>
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+  <script src="js/jquery-1.12.3.js"></script>
+  <script src="js/main.js"></script>
+</head>
+<body>
+  <div id="wrap">
+    <header>
+      <div class="header min-box">
+        <nav id="GNB">
+          <div class="logo">
+            <a href="#">
+              <img src="images/header/logo.png" alt="logo">
+            </a>
+          </div>
+          <div id="GNB-sub" class="GNBmenu">
+            <div class="sub-list">
+              <ul class="sub">
+                <li><a href="#">총장인사말</a></li>
+                <li><a href="#">학교소개</a></li>
+                <li><a href="#">홍보관</a></li>
+                <li><a href="#">캠퍼스안내</a></li>
+              </ul>
+              <ul class="sub">
+                <li><a href="#">수시모집</a></li>
+                <li><a href="#">정시모집</a></li>
+                <li><a href="#">편입학</a></li>
+                <li><a href="#">재외국민</a></li>
+              </ul>
+              <ul class="sub">
+                <li><a href="#">동대학정보알림</a></li>
+                <li><a href="#">정보공개</a></li>
+                <li><a href="#">정보서비스안내</a></li>
+              </ul>
+              <ul class="sub">
+                <li><a href="#">공지사항</a></li>
+                <li><a href="#">참여게시판</a></li>
+                <li><a href="#">자료실</a></li>
+              </ul>
+            </div>
+          </div>
+          <div id="GNB-main" class="GNBmenu">
+            <ul>
+              <li><a href="#" class="on">대학소개</a></li>
+              <li><a href="#">입학소개</a></li>
+              <li><a href="#">정보서비스</a></li>
+              <li><a href="#">커뮤니티</a></li>
+            </ul>
+          </div>
+        </nav>      
+      </div>
+    </header>
+    <section id="slide" class="min-box">
+      <div class="slide-box1">
+        <div class="slide-box2">
+          <div class="slide-con">
+            <img src="images/slide/img1.jpg" alt="sl1">
+            <a href="#">산업대학교 교내공모전 개최</a>
+          </div>
+          <div class="slide-con">
+            <img src="images/slide/img2.jpg" alt="sl2">
+            <a href="#">하반기 산업대학교 학사일정</a>
+          </div>
+          <div class="slide-con">
+            <img src="images/slide/img3.jpg" alt="sl3">
+            <a href="#">산업대학교 도서관 공사안내</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contents" class="min-box">    
+      <div class="con-notice">
+        <p class="con-title">공지사항</p>
+        <div class="not-box">
+          <ul>
+            <li>
+              <a href="#">
+                <p>산업대학교 교내공모전 개최</p>
+                <span>2020.11.27</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <p>하반기 산업대학교 학사일정</p>
+                <span>2020.11.27</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <p>산업대학교 도서관 공사안내</p>
+                <span>2020.11.27</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <p>신입생 모집 안내</p>
+                <span>2020.11.27</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>    
+      <div class="con-gallery">
+        <p class="con-title">갤러리</p>
+        <div class="gall-box">
+          <div class="gall-con gl1">
+            <img src="images/contents/gallery/icon1.jpg" alt="gl1">
+            <a href="#"><p>갤러리1</p></a>
+          </div>
+          <div class="gall-con gl2">
+            <img src="images/contents/gallery/icon2.jpg" alt="gl2">            
+            <a href="#"><p>갤러리2</p></a>
+          </div>
+          <div class="gall-con gl3">
+            <img src="images/contents/gallery/icon3.jpg" alt="gl3">            
+            <a href="#"><p>갤러리3</p></a>
+          </div>
+        </div>
+      </div>    
+      <div class="con-banner">
+        <div class="ban-box">
+          <img src="images/contents/banner/banner.jpg" alt="banner">
+          <a href="#">배너</a>
+        </div>
+      </div>
+      <div id="pop">
+        <h3>산업대학교 교내공모전 개최</h3>
+        <p>MZ세대가 사랑하는 대학 산업대학교에서 사람들의 마음과 세상을 흔들 드라마를 찾습니다. 한계 없는 상상력과 참신함으로 무장한 당신만의 이야기를 채워주세요.</p>
+        <button type="button" id="popclose" name="popclose">닫기</button>
+      </div>
+    </section>    
+    <footer>
+      <div class="footer min-box">
+        <div class="ft-left">
+          <div class="ft-l-top">
+            <ul>
+              <li><a href="#">하단메뉴1</a></li>
+              <li><a href="#">하단메뉴2</a></li>
+              <li><a href="#">하단메뉴3</a></li>
+            </ul>
+          </div>
+          <div class="ft-l-bottom">
+            <address>COPYRIGHTⓒ by WEBDESIGN. ALL RIGHTS RESERVED</address>
+          </div>
+        </div>
+        <div class="ft-right">
+          <select name="ft-menu" id="ft-menu" onchange="window.open(value, '_blink')">
+            <option>패밀리사이트</option>
+            <option value="https://www.naver.com">패밀리사이트1</option>
+            <option value="https://www.naver.com">패밀리사이트2</option>
+            <option value="https://www.naver.com">패밀리사이트3</option>
+          </select>
+        </div>
+      </div>
+    </footer>
+
+    
+  </div>
+</body>
+</html>
